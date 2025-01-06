@@ -1,0 +1,49 @@
+.parent {
+    background: pink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+
+}
+.child {
+    border: 1px solid #000000;
+    font-size: 30px;
+    padding: 20px;
+    background: rgb(0, 210, 238);
+
+}
+
+.parent_2 {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+
+}
+.child_2 {
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+    background: orange;
+    
+
+}
+
+.parent_3 {
+    padding: 20px;
+    background : red;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.child_3 {
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+}
